@@ -14,8 +14,9 @@ The functions built here were created to enforce custom email retention rules no
 3. have a dynamic distribution list that contains all mailboxes you wish to target (mine is hidden too)
 
 
-To get your search results:
+To get your complete search result:
 ```
 $Results = Start-FullCustomEdiscoverySearch -service $EWSservice -KQL $YourKqlString 
    -MailboxGroupFilter $MyTargetMailboxes
 ```
+  *oh, btw... EXO only allows up to 2 concuurent ediscovery searches.  be advised.*

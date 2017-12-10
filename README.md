@@ -6,7 +6,7 @@ Ediscovery on Exchange Online is throttled and capped.  Large organizations requ
 
 These functions here are resilient to throttling and timeouts.  It works within the caps imposed and provides all search results despite the number of mailboxes your organization has.  Once results are returned, the emails can be examined and/or purged.
 
-The functions built here were created to enforce custom email retention rules not provided by Exchange or Exchange Online.  It was also recently used to eradicate a target phishing campaign.
+The functions built here were created to enforce custom email retention rules not provided by Exchange or Exchange Online.  We also found utilities here useful recently to eradicate mail from a targeted phishing attack.
 
 **Prerequisites:**
 1. provide your own KQL (keyword query languange) string.  sender/recipient fields are indexed, so EXO ignores the @domain component..

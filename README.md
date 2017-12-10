@@ -9,6 +9,6 @@ These functions here are resilient to throttling and timeouts.  It works within 
 The functions built here were created to enforce custom email retention rules not provided by Exchange or Exchange Online.  It was also recently used to eradicate a target phishing campaign.
 
 **Prerequisites:**
-1. provide your own KQL (keyword query languange) string.  sender/recipient fields are indexed and ignore the @domain component..
+1. provide your own KQL (keyword query languange) string.  sender/recipient fields are indexed, so EXO ignores the @domain component..
 2. have ApplicationImpersonation rights against all your mailboxes
 3. have a dynamic distribution list that contains all mailboxes you wish to target (mine is hidden too)

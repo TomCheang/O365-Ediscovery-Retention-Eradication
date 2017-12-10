@@ -15,5 +15,6 @@ The functions built here were created to enforce custom email retention rules no
 
 
 To get your search results:
-
+```
 $Results = Start-FullCustomEdiscoverySearch -service $EWSservice -KQL $YourKqlString -MailboxGroupFilter $MyTargetMailboxes
+```
